@@ -1,0 +1,6 @@
+LIBRARY ext
+
+EXPORTS
+	DebugExtensionNotify
+	DebugExtensionInitialize
+	DebugExtensionUninitialize
