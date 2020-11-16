@@ -52,3 +52,12 @@ DebugExtensionUninitialize(void)
 	FreeConsole();
 #endif
 }
+
+HRESULT
+CALLBACK
+test(PDEBUG_CLIENT client, PCSTR args)
+{
+	printf("%hs\r\n", args);
+
+	return S_OK;
+}
